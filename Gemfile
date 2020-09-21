@@ -36,6 +36,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 # Stripe for Payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby' 
+# Figaro to securely configure App
+gem 'figaro'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
