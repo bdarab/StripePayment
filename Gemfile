@@ -33,11 +33,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 # Stripe for Payments
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby' 
 # Figaro to securely configure App
 gem 'figaro'
+# activeadmin for admin system
+gem 'activeadmin', github: 'gregbell/active_admin'
+# devise for user authentication
+gem 'devise'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'letter_opener', group: :devdlopment
